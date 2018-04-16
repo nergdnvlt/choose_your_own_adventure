@@ -6,6 +6,13 @@ a {
   text-decoration: none;
 }
 
+.main {
+  margin-left: 14%;
+  margin-right: 14%;
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -14,18 +21,35 @@ nav {
 
 .left-nav {
   border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   width: 50%;
+}
+
+.left-nav a {
+  font-style: italic;
+  text-transform: uppercase;
+  color: #7A797A;
+  font-size: 13px;
+  padding: 5px;
+  margin: 5px;
+  font-family: Georgia;
 }
 
 
 .right-nav {
-  border: 2px solid blue;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   width: 50%;
 }
 
 .right-nav h1 {
   font-size: 50px;
+  margin-right: 10px;
+}
+
+.title header {
+  font-family: Helvetica;
 }
