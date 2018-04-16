@@ -1,3 +1,31 @@
+html {
+  font-family: 'Oswald', sans-serif;
+}
+
 a {
   text-decoration: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+}
+
+.left-nav {
+  border: 2px solid red;
+  width: 50%;
+}
+
+
+.right-nav {
+  border: 2px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.right-nav h1 {
+  font-size: 50px;
 }
